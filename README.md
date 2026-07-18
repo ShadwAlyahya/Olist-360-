@@ -10,10 +10,10 @@ The target objective is to uncover operational bottlenecks, assess merchant gove
 ## Repository Structure & Deliverables
 The repository is organized around the following key deliverables:
 
-*   **`Olist 360°.ipynb`**: The technical pipeline containing data cleansing, structural preprocessing, text analytics (NLP), and statistical formatting executed in Python.
-*   **`Olist 360°-.pbix`**: The interactive Power BI dashboard featuring three dedicated reporting layers built with custom DAX measures, dynamic filter interfaces, and advanced geospatial mapping.
-*   **`Recommendation.pdf`**: A formal business report outlining data-driven strategic actions and expected commercial outcomes for executive leadership.
-*   **`images-.pdf`**: Visual documentation and screenshots of the finished dashboards for rapid review.
+*   **[`Olist 360°.ipynb`](./Olist%20360%C2%B0.ipynb)**: The technical pipeline containing data cleansing, structural preprocessing, text analytics (NLP), and statistical formatting executed in Python.
+*   **[`Olist 360°-.pbix`](./Olist%20360%C2%B0-.pbix)**: The interactive Power BI dashboard featuring three dedicated reporting layers built with custom DAX measures, dynamic filter interfaces, and advanced geospatial mapping.
+*   **[`Recommendation.pdf`](./Recommendation.pdf)**: A formal business report outlining data-driven strategic actions and expected commercial outcomes for executive leadership.
+*   **[`images-.pdf`](./images-.pdf)**: Visual documentation and screenshots of the finished dashboards for rapid review.
 
 ---
 
@@ -23,13 +23,13 @@ The repository is organized around the following key deliverables:
 The underlying raw dataset was sourced from the **Kaggle Olist Dataset**, which contains real, anonymized marketplace records across multiple relational tables (customers, orders, items, payments, reviews, and products).
 
 ### 2. Data Cleansing & Preparation (Python)
-Using `Olist 360°.ipynb`, a systematic preprocessing pipeline was engineered to ensure data integrity:
+Using [`Olist 360°.ipynb`](./Olist%20360%C2%B0.ipynb), a systematic preprocessing pipeline was engineered to ensure data integrity:
 *   **Handling Inconsistencies & Redundancies**: Evaluated missing values, standardized data types, and parsed timestamp records.
 *   **Feature Engineering**: Computed critical custom metrics such as delivery duration variances, installment preferences, and freight-to-price ratios.
 *   **Text Analytics (NLP)**: Processed raw customer review text by isolating Portuguese feedback, filtering out systemic stop-words, and generating a frequency-based word cloud to extract thematic root causes behind negative scores.
 
 ### 3. Business Intelligence & Visualization (Power BI)
-The processed data was modeled into an active snowflake schema inside `Olist 360°-.pbix`, separating analytics into three distinct reporting lenses:
+The processed data was modeled into an active snowflake schema inside [`Olist 360°-.pbix`](./Olist%20360%C2%B0-.pbix), separating analytics into three distinct reporting lenses:
 *   **Business & Sales Dashboard**: Tracks total Gross Merchandise Volume (GMV), Total Orders, Average Order Value (AOV), payment method distributions, and temporal trends.
 *   **Logistics & Delivery Dashboard**: Maps out SLA breach rates across geographical clusters, evaluates delivery times, and isolates freight cost correlations relative to product dimensions.
 *   **Customer Experience Dashboard**: Analyzes the relationship between transit delays and customer ratings, evaluates seller performance distribution, and visualizes qualitative review text.
@@ -45,6 +45,13 @@ The analytical findings have been consolidated into a professional executive doc
 *   **Sales Trends**: A definitive sales peak was identified in November 2017, aligning directly with seasonal Black Friday demand and proving a baseline for proactive pre-season inventory allocation.
 *   **Logistical Costs**: Freight value accounts for an average of 16.66% of the product price, showing a strong linear correlation with product weight, justifying a need for tiered third-party logistics restructuring.
 *   **Customer Experience**: Natural Language Processing (NLP) of text reviews revealed that fulfillment anxieties and shipping delays are the primary drivers of negative (1-3 star) feedback, establishing a clear link between transit times and platform reputation.
+
+---
+
+## Visual Dashboard Preview
+For a quick graphical overview of the developed dashboard interfaces without opening Power BI, you can explore the complete compiled visual export here:
+
+ **[View Dashboard Screenshots (images-.pdf)](./images-.pdf)**
 
 ---
 
