@@ -12,10 +12,17 @@ The target objective is to uncover operational bottlenecks, assess merchant gove
 ## Repository Structure & Deliverables
 The repository is organized around the following key deliverables:
 
-*   **[`Olist 360°.ipynb`](./Olist%20360%C2%B0.ipynb)**: The technical pipeline containing data cleansing, structural preprocessing, text analytics (NLP), and statistical formatting executed in Python.
-*   **[`Olist 360°-.pbix`](./Olist%20360%C2%B0-.pbix)**: The interactive Power BI dashboard featuring three dedicated reporting layers built with custom DAX measures, dynamic filter interfaces, and advanced geospatial mapping.
-*   **[`Recommendation.pdf`](./Recommendation.pdf)**: A formal business report outlining data-driven strategic actions and expected commercial outcomes for executive leadership.
-*   **[`images-.pdf`](./images-.pdf)**: Visual documentation and screenshots of the finished dashboards for rapid review.
+Olist 360°.ipynb: The technical pipeline containing data cleansing, structural preprocessing, text analytics (NLP), and statistical formatting executed in Python.
+
+Olist 360°-.pbix: The interactive Power BI dashboard featuring three dedicated reporting layers built with custom DAX measures, dynamic filter interfaces, and advanced geospatial mapping.
+
+PresentationOlist.pptx: A structured executive slide deck tailored for technical and strategic review, framing the full data architecture lifecycle as a unified business narrative.
+
+video.mp4: A comprehensive screen-recording and video guide demonstrating the interactive dashboard features, dynamic cross-filtering capabilities, and visual insight delivery.
+
+Recommendation.pdf: A formal business report outlining data-driven strategic actions and expected commercial outcomes for executive leadership.
+
+images-.pdf: Visual documentation and screenshots of the finished dashboards for rapid review.
 
 ---
 
